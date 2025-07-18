@@ -30,10 +30,10 @@ window.onscroll = () => {
 
 }
 
-menuIcon.onclick = () => {
-    menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
-};
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+  });  
 
 ScrollReveal({
     //reset: true, 
