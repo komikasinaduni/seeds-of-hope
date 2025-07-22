@@ -25,11 +25,6 @@ window.onscroll = () => {
 
 }
 
-menuIcon.addEventListener('click', () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-  });  
-
 ScrollReveal({
     //reset: true, 
     distance: '80px',
