@@ -525,7 +525,7 @@ span {
     top: 100%;
     left: 0;
     width: 100%;
-    background: var(--main-color);
+    background: var(--second-bg-color);
     flex-direction: column;
     align-items: center;
     display: none;  
